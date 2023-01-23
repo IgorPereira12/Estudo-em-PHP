@@ -1,3 +1,4 @@
+<pre>
 <?php
     $cad = array("nome" => "Igor",
                  "idade" => "31 anos",
@@ -5,5 +6,7 @@
         );
 
     print_r($cad);
+
+    var_dump($cad);
 
 
