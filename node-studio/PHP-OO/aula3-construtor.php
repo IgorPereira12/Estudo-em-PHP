@@ -51,5 +51,5 @@
 
     $logar = new Login("teste@teste.com", "123456", "Igor Pereira");
     $logar->Logar();
-    echo "<br/>";
+    echo "<br>";
     echo $logar->getNome();

@@ -43,6 +43,6 @@
     $logar->setEmail("teste@teste.com");
     $logar->setSenha("123456");
     $logar->Logar();
-    echo "<br/>";
+    echo "<br>";
     echo $logar->getEmail();
 

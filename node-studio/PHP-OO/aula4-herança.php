@@ -83,24 +83,24 @@
 
     $carro = new Carro("Mercedinha", "Prata", 2002, "Fechada", "Destravado", "Tecido");
     $carro->Andar();
-    echo "<br/>";
+    echo "<br>";
     $carro->Porta();
-    echo "<br/>";
+    echo "<br>";
     $carro->Volante();
-    echo "<br/>";
+    echo "<br>";
     print_r($carro);
 
-    echo "<br/>";
-    echo "<br/>";
+    echo "<br>";
+    echo "<br>";
 
     $moto = new Moto();
     $moto->modelo = "Harley-Davidson";
     $moto->cor = "Preta";
     $moto->ano = 2022;
     $moto->Parar();
-    echo "<br/>";
+    echo "<br>";
     $moto->setTripe("Abaixado");
     $moto->Tripe();
-    echo "<br/>";
+    echo "<br>";
     print_r($moto);
 
