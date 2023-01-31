@@ -2,9 +2,9 @@
 
     /*
 
-    -pegar um atributo = get
+    *pegar um atributo = get
 
-    -setar um atributo = set (precisa de parâmetro)
+    *setar um atributo = set (precisa de parâmetro)
 
     */
 
@@ -17,8 +17,8 @@
             return $this->email;
         }
 
-        public function setEmail($e) {
-            $email = filter_var($e, FILTER_SANITIZE_EMAIL);
+        public function setEmail($email) {
+            $email = filter_var($email, FILTER_SANITIZE_EMAIL);
             $this->email = $email;
         }
 
@@ -26,8 +26,8 @@
             return $this->senha;
         }
 
-        public function setSenha($s) {
-            $this->senha = $s;
+        public function setSenha($senha) {
+            $this->senha = $senha;
         }
 
         public function Logar () {

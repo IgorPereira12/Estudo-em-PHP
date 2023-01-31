@@ -2,18 +2,17 @@
 
     /*
 
-    objeto
+    *tag classe = "class"
 
-    -tag classe = "class"
-     nome da classe -> primeira letra maiúscula
+    *nome da classe -> primeira letra maiúscula
 
-    -características da classe = atributos
+    *características da classe = atributos
 
-    -funções = métodos
+    *funções = métodos
 
-    -instanciar classe = tag "new" + nome da classe
+    *instanciar classe = tag "new" + nome da classe
 
-    -utilizar atributos e métodos dentro do escopo da classe -> tag "$this->"
+    *utilizar atributos e métodos dentro do escopo da classe -> tag "$this->"
 
     */
 
